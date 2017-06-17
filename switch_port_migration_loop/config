@@ -1,0 +1,2957 @@
+interface Gi1/0/47
+ switchport access vlan 24
+ switchport mode access
+ no logging event link-status
+ no logging event power-inline-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/4
+ description AP40277
+ switchport access vlan 24
+ switchport mode access
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/10
+ switchport access vlan 24
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/35
+ switchport access vlan 24
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/40
+ switchport access vlan 24
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/14
+ switchport access vlan 24
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/12
+ switchport access vlan 24
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/3
+ switchport access vlan 24
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/12
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/21
+ switchport access vlan 24
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/17
+ switchport access vlan 24
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/23
+ switchport access vlan 24
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/29
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/24
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/35
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/27
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface FastEthernet1/0/17
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/1
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/25
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/40
+ description LEGACY device
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ power inline never
+ no snmp trap link-status
+ no mdix auto
+ storm-control broadcast level 2.00
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/2
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/13
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/12
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/15
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/7
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/1
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/6
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/18
+ switchport access vlan 44
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/21
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/13
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/18
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/23
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/32
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/25
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/41
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/33
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/36
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/39
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/19
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/30
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/25
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/7
+ description SENSE Office
+ switchport access vlan 44
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/2
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/16
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/14
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/38
+ switchport mode access
+ no logging event link-status
+ speed 100
+ duplex full
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/15
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/8
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/38
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/45
+ description ATPS
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ power inline never
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/2
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/22
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/36
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/16
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/8
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/20
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/11
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/3
+ description Printer
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/34
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/28
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/39
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/38
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/34
+ description RIS-poortje
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/21
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/3
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/28
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/10
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/36
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/15
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/23
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/9
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/38
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/8
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/39
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/19
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/14
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/15
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/31
+ description SAT-SWITCH
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/4
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/13
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/21
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/17
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/22
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/7
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/20
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/36
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/32
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/38
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/41
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/44
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/41
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/9
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/18
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/20
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/23
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/13
+ description ATPS
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ power inline never
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface FastEthernet3/0/1
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/5
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/1
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/25
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/22
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/30
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/5
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/2
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/6
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface FastEthernet3/0/10
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface FastEthernet3/0/11
+ description Printer
+ switchport access vlan 100
+ switchport mode access
+ no snmp trap link-status
+ no mdix auto
+ storm-control broadcast level 2.00
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/30
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/5
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/34
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/24
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/24
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/27
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/27
+ description CAD TEKENAARS
+ switchport access vlan 44
+ switchport mode access
+ switchport voice vlan 200
+ switchport port-security maximum 3
+ switchport port-security
+ switchport port-security aging time 1
+ switchport port-security aging type inactivity
+ no logging event link-status
+ speed auto 10 100
+ srr-queue bandwidth share 10 10 60 20
+ priority-queue out 
+ mls qos trust device cisco-phone
+ mls qos trust cos
+ no snmp trap link-status
+ auto qos voip cisco-phone 
+ no mdix auto
+ storm-control broadcast level 2.00
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+ service-policy input AutoQoS-Police-CiscoPhone
+!
+interface Gi1/0/25
+ description CAD TEKENAARS
+ switchport access vlan 44
+ switchport mode access
+ switchport voice vlan 200
+ switchport port-security maximum 3
+ switchport port-security
+ switchport port-security aging time 1
+ switchport port-security aging type inactivity
+ no logging event link-status
+ speed auto 10 100
+ srr-queue bandwidth share 10 10 60 20
+ priority-queue out 
+ mls qos trust device cisco-phone
+ mls qos trust cos
+ no snmp trap link-status
+ auto qos voip cisco-phone 
+ no mdix auto
+ storm-control broadcast level 2.00
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+ service-policy input AutoQoS-Police-CiscoPhone
+!
+interface Gi2/0/32
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/3
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/26
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/19
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/17
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/29
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/38
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/14
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/15
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/22
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/31
+ description ATPS
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/2
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/33
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/35
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/39
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/35
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/29
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/28
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/33
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/9
+ description CAD plotter
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ storm-control broadcast level 2.00
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/44
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/22
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/32
+ description CAD TEKENAARS
+ switchport access vlan 44
+ switchport mode access
+ switchport voice vlan 200
+ switchport port-security maximum 3
+ switchport port-security
+ switchport port-security aging time 1
+ switchport port-security aging type inactivity
+ no logging event link-status
+ speed auto 10 100
+ srr-queue bandwidth share 10 10 60 20
+ priority-queue out 
+ mls qos trust device cisco-phone
+ mls qos trust cos
+ no snmp trap link-status
+ auto qos voip cisco-phone 
+ no mdix auto
+ storm-control broadcast level 2.00
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+ service-policy input AutoQoS-Police-CiscoPhone
+!
+interface Gi5/0/17
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/27
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/16
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/7
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/29
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/8
+ switchport access vlan 3
+!
+interface Gi6/0/34
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface FastEthernet4/0/2
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/36
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface FastEthernet4/0/4
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/43
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/27
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/40
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/43
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/26
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/31
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/25
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/1
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/11
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface FastEthernet4/0/14
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/30
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/33
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/4
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/29
+ description CAD TEKENAARS
+ switchport access vlan 44
+ switchport mode access
+ switchport voice vlan 200
+ switchport port-security maximum 3
+ switchport port-security
+ switchport port-security aging time 1
+ switchport port-security aging type inactivity
+ no logging event link-status
+ speed auto 10 100
+ srr-queue bandwidth share 10 10 60 20
+ priority-queue out 
+ mls qos trust device cisco-phone
+ mls qos trust cos
+ no snmp trap link-status
+ auto qos voip cisco-phone 
+ no mdix auto
+ storm-control broadcast level 2.00
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+ service-policy input AutoQoS-Police-CiscoPhone
+!
+interface Gi2/0/21
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/7
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/20
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/1
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/31
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/13
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/6
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/6
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/44
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/17
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/39
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/19
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/26
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/23
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/7
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/10
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/20
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/13
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/37
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/36
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ speed 100
+ duplex full
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/3
+ switchport access vlan 3
+ switchport mode access
+ speed 100
+ duplex full
+!
+interface Gi6/0/11
+ switchport access vlan 3
+ switchport mode access
+ spanning-tree portfast
+!
+interface Gi6/0/6
+ switchport access vlan 3
+ switchport mode access
+ spanning-tree portfast
+!
+interface Gi6/0/9
+ switchport access vlan 3
+ switchport mode access
+ spanning-tree portfast
+!
+interface Gi6/0/40
+ switchport access vlan 100
+ switchport mode access
+!
+interface Gi6/0/27
+ switchport access vlan 3
+ switchport mode access
+ spanning-tree portfast
+!
+interface Gi6/0/42
+ switchport access vlan 3
+ switchport mode access
+ spanning-tree portfast
+!
+interface Gi6/0/37
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ mls qos trust device cisco-phone
+ no snmp trap link-status
+ no mdix auto
+ storm-control broadcast level 2.00
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/11
+ switchport access vlan 100
+ switchport mode access
+!
+interface Gi6/0/23
+ switchport access vlan 3
+ switchport mode access
+ spanning-tree portfast
+!
+interface Gi4/0/43
+ switchport access vlan 13
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/2
+ description CLIENT-PC   
+ switchport access vlan 3
+ switchport mode access
+ switchport port-security
+ switchport port-security aging time 1
+ switchport port-security aging type inactivity
+ no logging event link-status
+ speed auto 10 100
+ no snmp trap link-status
+ no mdix auto
+ storm-control broadcast level 2.00
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface FastEthernet5/0/3
+ switchport access vlan 13
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface FastEthernet5/0/4
+ switchport access vlan 13
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface FastEthernet5/0/5
+ switchport access vlan 13
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/19
+ switchport access vlan 13
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/43
+ switchport access vlan 13
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface FastEthernet5/0/8
+ switchport access vlan 13
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/26
+ switchport access vlan 13
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/5
+ switchport access vlan 13
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/22
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/17
+ description CLIENT-PC   
+ switchport access vlan 3
+ switchport mode access
+ switchport port-security
+ switchport port-security aging time 1
+ switchport port-security aging type inactivity
+ no logging event link-status
+ speed auto 10 100
+ no snmp trap link-status
+ no mdix auto
+ storm-control broadcast level 2.00
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/33
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/45
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/37
+ description Narrowcasting
+ switchport access vlan 240
+ switchport mode access
+ switchport port-security
+ switchport port-security aging time 3
+ no logging event link-status
+ no snmp trap link-status
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/4
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/28
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/30
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/33
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/37
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/39
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/42
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/46
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/48
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/24
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/11
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/8
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/5
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface FastEthernet5/0/29
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/16
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/9
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/18
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/43
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/31
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/14
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/8
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/16
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/32
+ description ILO JNANA01
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ speed 100
+ duplex full
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/29
+ description JNANA
+ switchport access vlan 11
+ switchport mode access
+ no logging event link-status
+ speed 100
+ duplex full
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/35
+ description PC24181 (PLC)
+ switchport access vlan 11
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/30
+ description PLC Falling film koeling
+ switchport access vlan 11
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface FastEthernet5/0/42
+ description PLC Bak koeling
+ switchport access vlan 11
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/40
+ description CLIENT-PC   
+ switchport access vlan 3
+ switchport mode access
+ switchport port-security
+ switchport port-security aging time 1
+ switchport port-security aging type inactivity
+ no logging event link-status
+ speed auto 10 100
+ no snmp trap link-status
+ no mdix auto
+ storm-control broadcast level 2.00
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/4
+ description CLIENT-PC   
+ switchport access vlan 3
+ switchport mode access
+ switchport port-security
+ switchport port-security aging time 1
+ switchport port-security aging type inactivity
+ no logging event link-status
+ speed auto 10 100
+ no snmp trap link-status
+ no mdix auto
+ storm-control broadcast level 2.00
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/1
+ description CLIENT-PC   
+ switchport access vlan 3
+ switchport mode access
+ switchport port-security
+ switchport port-security aging time 1
+ switchport port-security aging type inactivity
+ no logging event link-status
+ speed auto 10 100
+ no snmp trap link-status
+ no mdix auto
+ storm-control broadcast level 2.00
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface FastEthernet5/0/46
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface FastEthernet5/0/47
+ description DOM ENIQ SER2 T3
+ switchport access vlan 15
+ switchport mode access
+ switchport port-security
+ switchport port-security aging time 1
+ switchport port-security aging type inactivity
+ no logging event link-status
+ speed auto 10 100
+ no snmp trap link-status
+ no mdix auto
+ storm-control broadcast level 2.00
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface FastEthernet5/0/48
+ description SW22479-F0/26
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+ storm-control broadcast level 25.00
+ storm-control multicast level 25.00
+ spanning-tree portfast
+!
+interface Gi1/0/14
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/35
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/42
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/12
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/18
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/37
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/43
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/28
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/6
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/4
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/12
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/41
+ description Narrowcasting
+ switchport access vlan 240
+ switchport mode access
+ switchport port-security
+ switchport port-security aging time 3
+ no logging event link-status
+ no snmp trap link-status
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/10
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/3
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/26
+ description Narrowcasting
+ switchport access vlan 240
+ switchport mode access
+ switchport port-security
+ switchport port-security aging time 3
+ no logging event link-status
+ no snmp trap link-status
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/42
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/34
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/11
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/20
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/44
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/41
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface FastEthernet6/0/22
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/24
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/40
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/31
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi2/0/16
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/37
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/42
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/10
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/12
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/15
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/42
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/24
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/32
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/28
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/5
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/21
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi6/0/18
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi4/0/44
+ description DOM ENIQ SER2 T3
+ switchport access vlan 15
+ switchport mode access
+ switchport port-security
+ switchport port-security aging time 1
+ switchport port-security aging type inactivity
+ no logging event link-status
+ speed auto 10 100
+ no snmp trap link-status
+ no mdix auto
+ storm-control broadcast level 2.00
+ no cdp enable
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/34
+ switchport access vlan 24
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi1/0/19
+ switchport access vlan 24
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface FastEthernet6/0/42
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/44
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface FastEthernet6/0/44
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/10
+ switchport access vlan 3
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi5/0/41
+ description Access Point
+ switchport access vlan 24
+ switchport mode access
+ no logging event power-inline-status
+ mls qos trust dscp
+ no mdix auto
+ storm-control broadcast level 5.00
+ storm-control multicast level 5.00
+!
+interface Gi3/0/9
+ switchport access vlan 24
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!
+interface Gi3/0/26
+ description Printer
+ switchport access vlan 100
+ switchport mode access
+ no logging event link-status
+ no snmp trap link-status
+ no mdix auto
+ spanning-tree portfast
+ spanning-tree bpdufilter enable
+ spanning-tree bpduguard enable
+!

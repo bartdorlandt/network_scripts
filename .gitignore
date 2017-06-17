@@ -1,0 +1,19 @@
+# List all files and directories that shouldn't be tracked.
+*.bak
+cmdfile
+ipfile*
+**/__pycache__
+**/old/
+test*
+*.swp
+*.txt
+*.py[cod]
+**/backup
+.stfolder
+
+# Symlink file
+config-generator/config_variables
+
+# Untracked other dir
+other-scripts
+.ropeproject
