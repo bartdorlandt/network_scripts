@@ -2,7 +2,6 @@
 This library is used for all network scripts.
 It lists different functions that are used by several scripts.
 
-
 '''
 import re
 import os
@@ -64,67 +63,31 @@ def readipfile(iparg):
     return iplist, iperror
 
 
-def readipfile_OLD(iparg):
-    '''This module will return a list with the ip addresses and a list with
-    errors. It can handle a single ip address, a file containing ip addresses
-    or an HPov csv file.'''
-    iplist = []
-    iperror = []
-    ipre = re.compile('^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}'
-                      '(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$')
-    # First check if it is an ip address. If so, add it to the list
-    if ipre.match(iparg):
-        iplist.append(iparg)
-    elif os.path.isfile(iparg):
-        # open the file and see if it is a HPOV csv or just IPs.
-        # Add them to the list
-        with open(iparg, 'r') as f:
-            for line in f:
-                line = line.strip()
-                if line.startswith("Normal") or line.startswith("Minor"):
-                    ip = line.split(',')[3]
-                    if ipre.match(ip):
-                        iplist.append(ip)
-                    else:
-                        iperror.append("This line is not used: {}".format(
-                            line))
-                elif ipre.match(line):
-                    iplist.append(line)
-                elif line.startswith("Status"):
-                    # print("line starts with a #")
-                    continue
-                elif line.startswith("#"):
-                    # print("line starts with a #")
-                    continue
-                elif not line:
-                    # print("line is empty")
-                    continue
-                else:
-                    iperror.append("This line is not used: {}".format(line))
-    else:
-        iperror.append("Not an IP or an existing file: {}".format(iparg))
-
-    return iplist, iperror
-
-
-def envvariable(variable, prefix=None):
+def envvariable(*args, prefix=None):
     '''Read the information either from the bash environment variables or use
     the input() function to retrieve it from the user.
     It returns a string with the variable information.'''
-    if prefix:
-        variable = prefix+variable
-    try:
-        envvar = os.environ[variable]
-    except KeyError:
-        # envvar = input(
-        print(
-            '[-] No environment variable was found for the ' +
-            'environment variable: {}.\n'.format(variable) +
-            '[-] Add it to your environment variables and restart the ' +
-            'session or provide it manually.\n')
-        envvar = getpass(prompt='variable {}: '.format(variable))
-        os.environ[variable] = envvar
-    return envvar
+    l1 = list()
+    for variable in args:
+        if prefix:
+            variable = prefix+variable
+        try:
+            envvar = os.environ[variable]
+        except KeyError:
+            # envvar = input(
+            print(
+                '[-] No environment variable was found for the ' +
+                'environment variable: {}.\n'.format(variable) +
+                '[-] Add it to your environment variables and restart the ' +
+                'session or provide it manually.\n')
+            envvar = getpass(prompt='variable {}: '.format(variable))
+            os.environ[variable] = envvar
+        l1.append(envvar)
+    return l1
+    if len(l1) == 1:
+        return l1[0]
+    else:
+        return l1
 
 
 class Switch(object):
