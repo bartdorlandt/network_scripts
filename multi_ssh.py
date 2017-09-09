@@ -99,6 +99,7 @@ def threader():
         # completed with the job
         q.task_done()
 
+
 # Provide switches to control this script
 parser = argparse.ArgumentParser(
     # usage="%(prog)s [options] ; Use -h to show all options.",
@@ -143,9 +144,8 @@ args = parser.parse_args()
 # failedcount = 0
 delay = args.delay
 # use the environment variable from bash
-acsuser = lb.envvariable("ACSUSER", args.acsprefix)
-acspass = lb.envvariable("ACSPASS", args.acsprefix)
-acsenable = lb.envvariable("ACSENABLE", args.acsprefix)
+acsuser, acspass, acsenable = lb.envvariable(
+    "ACSUSER", "ACSPASS", "ACSENABLE", prefix=args.acsprefix)
 devicetype = args.devicetype
 
 outputdir = os.getenv("HOME")+"/working/"
@@ -232,7 +232,10 @@ for i in range(args.processes):
     q.put(None)
 for t in threads:
     t.join()
-
+#
+### TODO: remove the directory if it is empty and note as such.
+# meaning no succesful writes to the created directory.
+#
 # end time - start time
 print("\nTotal time:", time.time() - start)
 # print("Total devices done:", str(ipcount))
