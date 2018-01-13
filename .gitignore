@@ -17,3 +17,6 @@ config-generator/config_variables
 # Untracked other dir
 other-scripts
 .ropeproject
+
+# pycharm
+.idea
