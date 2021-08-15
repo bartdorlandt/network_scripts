@@ -16,8 +16,8 @@ from getpass import getpass
 
 
 def checkip(ip):
-    ipre = re.compile('^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}'
-                      '(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$')
+    ipre = re.compile(r'^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}'
+                      r'(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$')
     if ipre.match(ip):
         return ip
     else:
@@ -30,8 +30,8 @@ def readipfile(iparg):
     or an HPov csv file.'''
     iplist = []
     iperror = []
-    ipre = re.compile('((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}'
-                      '(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)')
+    ipre = re.compile(r'((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}'
+                      r'(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)')
     # subnet mask option /8 - /32 possibilities.
     # ipresubnet = re.compile('((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}'
     #                   '(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)/'
@@ -70,16 +70,16 @@ def envvariable(*args, prefix=None):
     l1 = list()
     for variable in args:
         if prefix:
-            variable = prefix+variable
+            variable = prefix + variable
         try:
             envvar = os.environ[variable]
         except KeyError:
             # envvar = input(
             print(
-                '[-] No environment variable was found for the ' +
-                'environment variable: {}.\n'.format(variable) +
-                '[-] Add it to your environment variables and restart the ' +
-                'session or provide it manually.\n')
+                '[-] No environment variable was found for the '
+                'environment variable: {}.\n'
+                '[-] Add it to your environment variables and restart the '
+                'session or provide it manually.\n'.format(variable))
             envvar = getpass(prompt='variable {}: '.format(variable))
             os.environ[variable] = envvar
         l1.append(envvar)
@@ -333,9 +333,9 @@ class Switch(object):
         if self.hardwaregroup == 3:
             output = getcmdoutput(
                 self.ip, 'show run | b banner exec').split('\n')
-            reg = re.compile('\*.*?(?i)tag:.*?([0-9]{4,8})')
-            reg2 = re.compile('SW(\d{4,6})')
-            reg3 = re.compile('SW(\d{4,6}).*?SW(\d{4,6})')
+            reg = re.compile(r'\*.*?(?i)tag:.*?([0-9]{4,8})')
+            reg2 = re.compile(r'SW(\d{4,6})')
+            reg3 = re.compile(r'SW(\d{4,6}).*?SW(\d{4,6})')
             tag = []
             for x in output:
                 match = re.search(reg, x)
@@ -356,7 +356,7 @@ class Switch(object):
             if self.snmp.get('1.3.6.1.2.1.47.1.1.1.1.7.1') == 'Virtual Stack':
                 serial = self.snmp.get('1.3.6.1.2.1.47.1.1.1.1.11.2')
                 serial2 = self.snmp.get('1.3.6.1.2.1.47.1.1.1.1.11.500')
-                if len(tag) is not 2:
+                if len(tag) != 2:
                     tagerror.append('{} : not all tags found'
                                     .format(self.ip))
                     if not tag:
@@ -380,9 +380,8 @@ class Switch(object):
                 bladeserial = self.getserial()
                 for x in bladeserial:
                     serial = bladeserial[x]
-                    reg1 = re.compile('\*.*?\[[0-9]{1,2}].*?' + serial)
-                    reg2 = re.compile('\*.*?\[[0-9]{1,2}].*?' + serial +
-                                      '.*?(?i)tag:.*?([0-9]{4,8})')
+                    reg1 = re.compile(r'\*.*?\[[0-9]{1,2}].*?' + serial)
+                    reg2 = re.compile(r'\*.*?\[[0-9]{1,2}].*?' + serial + r'.*?(?i)tag:.*?([0-9]{4,8})')
 
                     for x in output:
                         match1 = re.search(reg1, x)
@@ -396,14 +395,13 @@ class Switch(object):
                             '{} : no tag found for serial {}'.format(
                                 self.ip, serial))
         else:
-            reg = re.compile('SW\d{4,6}')
+            reg = re.compile(r'SW\d{4,6}')
             for y, x in enumerate(seriallist):
                 serial = seriallist['sw{}'.format(y + 1)]
                 if re.search(reg, hostname) and self.getstackamount() == 1:
                     tagdict[serial] = hostname.split("SW")[1]
                 else:
-                    reg2 = re.compile('\*.*?\[[0-9]{1,2}].*?(?i)tag:.*?' +
-                                      '([0-9]{4,8}).*' + serial)
+                    reg2 = re.compile(r'\*.*?\[[0-9]{1,2}].*?(?i)tag:.*?([0-9]{4,8}).*' + serial)
                     if not output:
                         output = getcmdoutput(
                             self.ip, 'show run | b banner exec').split('\n')
@@ -585,12 +583,9 @@ def conf_range_gen(lines, step, debug=False):
             yield configlines
         else:
             i = 0
-            while (configlines[-1] != '!\n' and
-                   configlines[-1] != '!\r' and
-                   configlines[-1] != '!' and
-                   configlines[-1] != '\n' and
-                   configlines[-1] != '\r' and
-                   configlines[-1] != '\n\r'):
+            while (configlines[-1] != '!\n' and configlines[-1] != '!\r'
+                   and configlines[-1] != '!' and configlines[-1] != '\n'
+                   and configlines[-1] != '\r' and configlines[-1] != '\n\r'):
                 # If the code doesn't end on a line that starts and ends with !
                 # We will increase the length until we find one.
                 # The next run of the for loop will have to increase with that
